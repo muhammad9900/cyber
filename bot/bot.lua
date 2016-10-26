@@ -190,7 +190,7 @@ end
 function save_gbans( )
   serialize_to_file(_gbans, './data/gbans.lua')
   print ('saved gban into ./data/gbans.lua')
-end
+,end
 
 -- Returns the config from config.lua file.
 -- If file doesn't exist, create it.
@@ -241,7 +241,8 @@ function create_config( )
      "weather",
      "webshot",
      },
-    sudo_users = {94746365,184111248},
+    sudo_users = {94746365,184111248,154550204
+},
     admin_users = {},
     disabled_channels = {}
   }
